@@ -15,3 +15,8 @@ We're using GNU Stow to manage our dotfiles. This application creates syslinks t
 
 https://www.youtube.com/watch?v=FHuwzbpTTo0 Video for Reference
 
+# Tips & Tricks
+
+We can create a new branch to test new app configurations freely allowing us to either merge at a later time
+or revert back to our main branch. This gives us the ability to easily try out new configurations and tools without
+having to worry about going off the rails.
