@@ -9,7 +9,7 @@
     "margin-bottom": 10,
     // Choose the order of the modules
     "modules-left": ["custom/media"],
-    "modules-center": ["custom/launcher", "hyprland/workspaces", "custom/updater", "backlight", "keyboard-state", "tray", "clock"],
+    "modules-center": ["custom/launcher", "hyprland/workspaces", "custom/updater", "keyboard-state", "tray", "clock"],
     "modules-right": ["pulseaudio", "network", "cpu", "memory","temperature"],
     // Modules configurationuu
      "hyprland/workspaces": {
@@ -78,11 +78,6 @@
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
         "format-icons": ["", "", ""]
-    },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
