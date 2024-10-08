@@ -9,7 +9,7 @@
     "margin-bottom": 10,
     // Choose the order of the modules
     "modules-left": ["custom/media"],
-    "modules-center": ["custom/launcher", "hyprland/workspaces", "custom/updater", "keyboard-state", "tray", "clock"],
+    "modules-center": ["custom/launcher", "hyprland/workspaces", "custom/updater", "tray", "clock"],
     "modules-right": ["pulseaudio", "network", "cpu", "memory","temperature"],
     // Modules configurationuu
      "hyprland/workspaces": {
@@ -29,15 +29,6 @@
     //         "focused": "",
     //         "default": ""
     //     }
-    },
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
     },
     "hyprland/mode": {
         "format": "<span style=\"italic\">{}</span>"
@@ -108,7 +99,7 @@
         "on-click": "pavucontrol"
     },
     "custom/media": {
-        "format": "{} {icon}",
+        "format": "{0} {icon}",
         "return-type": "json",
         "max-length": 40,
         "format-icons": {
