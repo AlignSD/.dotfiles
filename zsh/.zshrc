@@ -1,5 +1,5 @@
 # Enable Colors and Change Prompt:
-autoload= -U colors && colors
+autoload -Uz colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 # The following lines were added by compinstall

@@ -10,7 +10,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/media"],
     "modules-center": ["custom/launcher", "hyprland/workspaces", "custom/updater", "tray", "clock"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory","temperature"],
+    "modules-right": ["pipewire/custom", "network", "cpu", "memory","temperature"],
     // Modules configurationuu
      "hyprland/workspaces": {
          "disable-scroll": true,
@@ -79,7 +79,7 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    "pulseaudio": {
+    "custom/pipewire": {
         // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
@@ -96,7 +96,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pwvucontrol"
     },
     "custom/media": {
         "format": "{0} {icon}",
